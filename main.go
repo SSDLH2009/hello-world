@@ -70,7 +70,7 @@ func StartCrawler() {
 	//SetupWriter 初始化CSV
 	//SetupWriter()
 	dateTime := time.Now().Format("2006_01_02_15_04_05") // 格式字符串是固定的，据说是go语言诞生时间，谷歌的恶趣味...
-	//os.Mkdir("D:\\data", os.ModePerm)
+
 	//pathxing :=path.Join("D:\\",fmt.Sprintf("%s.csv", dateTime))
 	pathxing :=fmt.Sprintf("D:\\%s.csv", dateTime)
 	log.Println(pathxing)
